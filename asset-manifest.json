@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tourist_Guide/static/css/main.55c1df11.css",
+    "main.js": "/Tourist_Guide/static/js/main.e4ce36d8.js",
+    "static/media/tourist.jpg": "/Tourist_Guide/static/media/tourist.718a832b2eefb6a13f98.jpg",
+    "index.html": "/Tourist_Guide/index.html",
+    "main.55c1df11.css.map": "/Tourist_Guide/static/css/main.55c1df11.css.map",
+    "main.e4ce36d8.js.map": "/Tourist_Guide/static/js/main.e4ce36d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55c1df11.css",
+    "static/js/main.e4ce36d8.js"
+  ]
+}
