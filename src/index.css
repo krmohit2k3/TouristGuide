@@ -1,0 +1,148 @@
+/* write your css here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./components/images/tourist.jpg);
+}
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title{
+    font-size: 3rem;
+    margin: 6vh;
+    border: 7px dashed white;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+.Container h1{
+    color: white;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(69, 68, 68);
+    opacity: 0.8;
+}
+
+.card:hover{
+    opacity: 1;
+}
+.image{
+    height: 380px;
+    width: 380px;
+    object-fit: cover;
+    padding-bottom: 1rem;
+    padding-right: 8px;
+}
+
+.tour-info{
+    margin: 20px 5px;
+}
+.tour-info p{
+    color: white;
+}
+
+.tour-price{
+    font-size: 1.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(4, 159, 4);
+    padding-bottom: 1rem;
+}
+
+.tour-name{
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.description{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+.read-more{
+    color: rgb(7, 7, 7);
+    cursor: pointer;
+}
+.read-more:hover {
+    color: rgb(9, 89, 180);
+}
+
+.btn-red{
+    margin-top: 18px;
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(30, 30, 30);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-red :hover{
+    color: rgb(212, 73, 23);
+    transition: all 0.2s;
+}
+
+.btn-red h3{
+    color: white;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.refresh h2{
+    color: white;
+    padding-bottom: 1rem;
+}
+
+.btn-white{
+    margin-top: 18px;
+    padding: 10px 80px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(13, 59, 71);
+    border-radius: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btn-white p{
+    color: white;
+}
+
+.btn-white:hover{
+    opacity: 0.7;
+}
+.btn-white p:hover{
+    color: rgb(23, 172, 23);
+}
